@@ -1,0 +1,5 @@
+org.springframework.context.ApplicationContextInitializer=\
+cn.lastwhisper.init.HelloApplicationContextInitializer
+
+org.springframework.boot.SpringApplicationRunListener=\
+cn.lastwhisper.listener.HelloSpringApplicationRunListener

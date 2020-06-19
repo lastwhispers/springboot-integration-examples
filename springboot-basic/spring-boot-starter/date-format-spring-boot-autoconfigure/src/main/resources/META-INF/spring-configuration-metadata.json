@@ -1,0 +1,25 @@
+{
+  "groups": [
+    {
+      "name": "formatter",
+      "type": "cn.lastwhisper.autoconfigure.DateFormatProperties",
+      "sourceType": "cn.lastwhisper.autoconfigure.DateFormatProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "formatter.pattern",
+      "type": "java.lang.String",
+      "description": "default format pattern",
+      "sourceType": "cn.lastwhisper.autoconfigure.DateFormatProperties",
+      "defaultValue": "yyyy-MM-dd HH:mm:ss"
+    },{
+      "name": "formatter.enabled",
+      "type": "java.lang.Boolean",
+      "description": "enable format",
+      "sourceType": "cn.lastwhisper.autoconfigure.DateFormatProperties",
+      "defaultValue": "false"
+    }
+  ],
+  "hints": []
+}

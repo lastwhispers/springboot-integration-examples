@@ -1,0 +1,36 @@
+
+# person
+person:
+  last-name: lisi
+  age: 18
+  birth: 2017/12/15
+  boss: false
+  maps: {k1: v1, k2: 14}
+  lists:
+    - list
+    - zhaoliu
+  dog:
+    name: dog
+    age: 15
+
+
+
+server:
+  port: 8081
+spring:
+  profiles:
+    active: prod
+
+---
+server:
+  port: 8083
+spring:
+  profiles: dev
+
+
+---
+
+server:
+  port: 8084
+spring:
+  profiles: prod
