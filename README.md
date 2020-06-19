@@ -23,38 +23,38 @@
 
 
 
-springboot-mybatis
-	springboot-mybatis-annotation
-	springboot-mybatis-annotation-mutil
-	~~springboot-mybatis-xml~~
-	springboot-mybatis-xml-mutil
+springboot-mybatis  
+	springboot-mybatis-annotation  
+	springboot-mybatis-annotation-mutil  
+	~~springboot-mybatis-xml~~  
+	springboot-mybatis-xml-mutil  
 
 
 
 
-springboot-jpa
+springboot-jpa   
 
-springboot-cache-jvm
-springboot-cache-redis
-springboot-task-async
-springboot-task-shceduler
-springboot-event
-springboot-i18n
+springboot-cache-jvm   
+springboot-cache-redis  
+springboot-task-async  
+springboot-task-shceduler  
+springboot-event  
+springboot-i18n  
 
-springboot-shiro
-springboot-security
-springboot-thymeleaf
-springboot-freemarker
-springboot-validated
-~~springboot-ip2region~~
+springboot-shiro  
+springboot-security  
+springboot-thymeleaf  
+springboot-freemarker  
+springboot-validated  
+~~springboot-ip2region~~    
 
-springboot-profile
-springboot-log
-springboot-devtools
-springboot-banner
-springboot-runner
-springboot-swagger
-springboot-package
-springboot-package-war
-springboot-docker
-springboot-docker-jar-nginx-mysql-redis
+springboot-profile  
+springboot-log  
+springboot-devtools  
+springboot-banner  
+springboot-runner  
+springboot-swagger  
+springboot-package  
+springboot-package-war  
+springboot-docker  
+springboot-docker-jar-nginx-mysql-redis  
