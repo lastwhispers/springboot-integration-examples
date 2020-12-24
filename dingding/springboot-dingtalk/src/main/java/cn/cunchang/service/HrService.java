@@ -9,7 +9,7 @@ public class HrService {
 
     public String getMobileByNick(String nick) {
         // 模拟查库、调远程api
-        return "15037584397";
+        return "";
     }
 
 }
