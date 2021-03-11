@@ -1,6 +1,7 @@
-package cn.lastwhisper.mapper;
+package cn.cunchang.mapper;
 
-import cn.lastwhisper.model.User;
+import cn.cunchang.mapper.UserMapper;
+import cn.cunchang.model.User;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,7 +22,7 @@ public class UserMapperTest {
         User user = new User();
         user.setAccount("admin");
         user.setPassword("123456");
-        user.setEmail("lastwhisper@yeah.net");
+        user.setEmail("cunchang@yeah.net");
         user.setPhone("15037584938");
         // 返回更新的行数
         assertThat(userMapper.insert(user)).isEqualTo(1);
@@ -43,12 +44,4 @@ public class UserMapperTest {
         assertThat(userMapper.updateById(user)).isEqualTo(1);
         assertThat(userMapper.selectById(7L).getEmail()).isEqualTo("xxx@163.com");
     }
-
-    @Test
-    public void testSelectList() {
-        List<User> userList = userMapper.selectList();
-        Assert.assertEquals(7, userList.size());
-    }
-
-
 }
