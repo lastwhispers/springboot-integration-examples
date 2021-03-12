@@ -16,7 +16,7 @@ public class FileUploadUtil {
 
     protected static Logger logger = LogManager.getLogger(FileUploadUtil.class);
 
-    private static String realPath;
+    public static String realPath;
 
     static {
         realPath = System.getProperty("user.home")+"/upload/";
