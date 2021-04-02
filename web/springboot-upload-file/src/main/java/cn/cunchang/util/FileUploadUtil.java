@@ -43,8 +43,7 @@ public class FileUploadUtil {
             jsonObject.put("success", true);
             jsonObject.put("fileUrl", realPath + fileName);
         } catch (IOException e) {
-            logger.warn("文件上传失败！");
-            e.printStackTrace();
+            logger.error("文件上传失败！",e);
             jsonObject.put("success", false);
         }
         return jsonObject.toJSONString();
