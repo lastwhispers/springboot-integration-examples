@@ -23,7 +23,7 @@ import java.util.Properties;
 public class DataSourceDB2Configuration {
 
     @Bean(name = "db2DataSource")
-    @ConfigurationProperties(prefix = "spring.datasource.db2")
+    @ConfigurationProperties(prefix = DataSourceConstants.DB2_PREFIX)
     public DataSource db2DataSource() {
         return DruidDataSourceBuilder.create().build();
     }
